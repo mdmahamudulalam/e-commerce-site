@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Commerce</title>
+    <!-- bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- customize style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- header start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  mb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">
+                  <i class="fas fa-shipping-fast"></i>
+                  ShopAholic</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoe">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          <!-- Image Slider -->
+           <section class="container " id="home">
+            <div id="carouselExampleControls " class="carousel slide bg-panda p-4 rounded-3" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Mega LCD TV For Sports</h1>
+                            <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                            <h1>$420</h1>
+                            <button class="btn btn-color">Buy Now>></button>
+                        </div>
+                        <div class="col-lg-5">
+                          <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Mega LCD TV For Sports</h1>
+                            <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                            <h1>$1200</h1>
+                            <button class="btn btn-color">Buy Now>></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                        
+                      </div>
+                   
+                  </div>
+                  <div class="carousel-item ">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>X-Box for your living room</h1>
+                            <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                            <h1>$600</h1>
+                            <button class="btn btn-color">Buy Now>></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                   
+                    
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+           </section>
+              
+         
+
+    </header>
+    <main>
+      <!-- categories -->
+        <section class="container">
+            <div class=" overflow-hidden my-5">
+                <div class="row gx-3">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                   <div class="p-3  border bg-warning d-flex justify-content-between align-items-center  rounded-3">
+                       <h1 class="text-white">Watch</h1>
+                       <img src="images/categories/watch.png" width="100" alt="">
+                   </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 border bg-categories d-flex justify-content-between align-items-center  rounded-3">
+                        <h1 class="text-white">Bag</h1>
+                        <img src="images/categories/bag.png"  width="100" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 border bg-success d-flex justify-content-between align-items-center  rounded-3">
+                        <h1 class="text-white">Shoe</h1>
+                        <img src="images/categories/shoes.png" width="100" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Shoes -->
+        <section class="container" id="shoe">
+            <h3>Shoes</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 ">
+                <div class="col-lg-4 col-md-6 .col-sm-12">
+                  <div class="card h-100 shadow-lg">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Supply 350</h5>
+                      
+                      <ul class="card-text">
+                          <li>Hardwearing and functional shoe, for long lasting comfort.</li>
+                          <li>Secure strap fastening; Double Velcro strap; Iconic Kickers coloured tabs</li>
+                          <li>Outer Material: Synthetic</li>
+                          <li> Inner Material: Synthetic</li>
+                      </ul>
+                      
+                    </div>
+                    <div class="m-3">
+                        <h5>$180</h5>
+                        <button type="button" class="btn btn-color">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 .col-sm-12">
+                  <div class="card h-100 shadow-lg">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike 360</h5>
+                      <ul class="card-text">
+                        <li>Nike swoosh, lifestyle</li>
+                        <li> Sole: Rubber</li>
+                        <li>Outer Material: Synthetic</li>
+                        <li> Inner Material: Synthetic</li>
+                    </ul>
+                    
+                    </div>
+                    <div class="m-3">
+                        <h5>$380</h5>
+                        <button type="button" class="btn btn-color">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 .col-sm-12">
+                  <div class="card h-100 shadow-lg">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Red Airmax</h5>
+                      <ul class="card-text">
+                        <li>Reinforced heel</li>
+                        <li> Lightweight knit material</li>
+                        <li>Outer Material: Synthetic</li>
+                        <li> Inner Material: Synthetic</li>
+                    </ul>
+                    
+                    </div>
+                    <div class="m-3">
+                        <h5>$450</h5>
+                        <button type="button" class="btn btn-color">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+        <!-- backpacks -->
+        <section class="container" id="backpack">
+            <h3>Backpacks</h3>
+            <div class="row row-cols-1 row-cols-md-3 mb-5 g-4">
+                <div class="col-lg-4 col-md-6 .col-sm-12">
+                  <div class="card h-100 shadow-lg">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">School Backpack</h5>
+                      
+                      <p>Lightweight and Water Resistant backpack will let you enjoy carrying the casual backpack everyday.The school backpack hangs nicely and comfortably on your back and shoulders with its air mesh breathable padded straps.</p>
+                      
+                    </div>
+                    <div class="m-3">
+                        <h5>$35</h5>
+                        <button type="button" class="btn btn-color">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 .col-sm-12">
+                  <div class="card h-100 shadow-lg">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Water Resistant Backpack</h5>
+                      <p>The Vaschy laptop backpack is a heavy-duty backpack suitable for those who like casual. The unique design is a fashion statement.Its durable material is recommended for middle college and high school students often bringing their college textbooks and notebooks to use as a bookbag schoolbag.</p>
+                    
+                    </div>
+                    <div class="m-3">
+                        <h5>$85</h5>
+                        <button type="button" class="btn btn-color">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 .col-sm-12">
+                  <div class="card h-100 shadow-lg">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Travel Laptop Backpack</h5>
+                    <p>Large Capacity & Multi-pocket: Duo-bag,one has 2 pockets for laptop(under 17 inch) and pad(15.5 inch), inner shockproof belt for fastening your laptop and Pad, preventing them from sliding and bumping. </p>
+                    
+                    </div>
+                    <div class="m-3">
+                        <h5>$50</h5>
+                        <button type="button" class="btn btn-color">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+        <!-- subscribe -->
+        
+        
+    </main>
+    <footer>
+      <section class="container" id="subscribe">
+        <div class="subscribe bg-panda p-4 d-flex flex-column align-items-center mb-5 rounded-3">
+          <div class="subsDetails">
+            <div>
+              <h1>Let's Get in Touch</h1>
+            <p>Get updates on sales, specials and more</p>
+            </div>
+            <div class="mb-3">
+              
+              <input type="email" class="form-control w-75 " id="exampleFormControlInput1" placeholder="Enter Your Email Here....">
+              <button class="btn btn-color mt-2">Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div>
+        <p class="footerText">
+          <small > ©2021. Shopaholic. All rights reserved. Dhaka, Bangladesh. </small>
+        </p>
+        
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0b6cec8901.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
